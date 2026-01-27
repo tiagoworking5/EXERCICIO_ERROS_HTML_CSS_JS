@@ -2,6 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema de Senhas</title>
     
 </head>
@@ -16,9 +17,9 @@
         <option value="2">Funcionário</option>
         <option value="3">Aposentado</option>
     </select>
-    <input type="password" id="inpSenha" placeholder="Senha">
+    <input type="password" name="inpSenha" placeholder="Senha">
 
-    <button onclick="verificarSenha">Entrar</button>
+    <button onclick="verificarSenha()">Entrar</button>
 
     <p id="pMensagem" class="msg"></p>
 </div>
