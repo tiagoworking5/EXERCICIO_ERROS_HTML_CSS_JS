@@ -8,8 +8,8 @@
 body {
     background: #f2f2f2;
     display: flex;
-    justify-content: ;
-    align-items: ;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
 }
 
@@ -34,6 +34,11 @@ input, button {
     margin-top: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
+}
+
+input:focus {
+    outline: none;
+    border-color: #007bff;
 }
 
 button {
