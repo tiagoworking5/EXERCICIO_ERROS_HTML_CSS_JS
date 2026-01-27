@@ -1,4 +1,4 @@
-function trocaPaginas() {
+function veriricarSenhas() {
 
     let usuario = document.getElementById("usuario").value;
     let senha = document.getElementById("inpsenha").value;
@@ -17,7 +17,7 @@ function trocaPaginas() {
 
     // Conta salário
     else if (usuario === "2" && senha === "456") {
-        alert(Você será direcionado para a página de conta salário.);
+        alert("Você será direcionado para a página de conta saláraio.");
         window.location.href = "contaSalario.html";
     }
 

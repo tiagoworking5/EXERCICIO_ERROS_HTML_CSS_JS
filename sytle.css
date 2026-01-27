@@ -6,7 +6,7 @@
 }
 
 body {
-    background: #f2f2f2;
+    background-color: #204852;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,47 +14,22 @@ body {
 }
 
 .container {
-    background: #fff;
-    padding: 25px 30px;
+    background-color: #ffffff;
+    padding: 30px;
     border-radius: 8px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    width: 520px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 420px;
     text-align: center;
 }
 
 h1 {
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: 15px;
     color: #333;
 }
 
-input, button {
-    width: 100%;
-    padding: 10px;
+p {
     margin-top: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-}
-
-input:focus {
-    outline: none;
-    border-color: #007bff;
-}
-
-button {
-    background: #007bff;
-    color: white;
-    border: none;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-    button:hover {
-        background: #0056b3;
-    }
-
-.msg {
-    margin-top: 10px;
-    font-size: 14px;
-    color: red;
+    font-size: 15px;
+    color: #444;
 }
