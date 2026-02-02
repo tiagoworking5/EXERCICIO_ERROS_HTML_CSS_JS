@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #204852;
+    background: #f2f2f2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,22 +14,53 @@ body {
 }
 
 .container {
-    background-color: #ffffff;
-    padding: 30px;
+    background: #fff;
+    padding: 25px 30px;
     border-radius: 8px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    width: 420px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    width: 320px;
     text-align: center;
 }
 
 h1 {
-    font-size: 22px;
-    margin-bottom: 15px;
+    font-size: 20px;
+    margin-bottom: 12px;
     color: #333;
+}
+
+select, input, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
 }
 
 p {
     margin-top: 10px;
-    font-size: 15px;
-    color: #444;
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5;
+}
+
+strong {
+    color: #007bff;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.msg {
+    margin-top: 10px;
+    font-size: 14px;
+    color: red;
 }

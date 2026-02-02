@@ -1,10 +1,10 @@
-function verificarSenha() {
+function trocaPaginas() {
 
-    let usuario = document.getElementById('ddlUsuario').value;
-    let senha = document.getElementById('inpSenha').value;
-    let mensagem = document.getElementById('pMensagem');
+    var usuario = document.getElementById('usuario').value;
+    var senha = document.getElementById('inpSenha').value;
+    var mensagem = document.getElementById('pMensagem');
 
-    //se a dropdownlist não estiver selecionada
+   //se a dropdownlist não estiver selecionada
     if (usuario === "0") {
         mensagem.innerHTML = "Selecione o tipo de usuário!";
     }
