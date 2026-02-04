@@ -24,7 +24,7 @@ function trocaPaginas() {
     // Aposentado
     else if (usuario === "3" && senha === "789") {
         alert("Você será direcionado para a página de benefício aposentadoria.");
-        window.location = "aposentado.html";
+        window.location.href = "aposentado.html";
     }
 
     // Erro
